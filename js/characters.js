@@ -47,7 +47,7 @@ function displayCharacters() {
         card.dataset.id = character.id;
         card.dataset.name = character.name
         card.innerHTML = `
-            <img src="${character.image}" loading="lazy" class="card-img-top" alt="${character.name}">
+            <img src="${character.image.toLowerCase()}" loading="lazy" class="card-img-top" alt="${character.name}">
             <div class="card-body">
                 <h5 class="card-title">${character.name}</h5>
                 <p class="card-text">DP: ${character.dp !== null ? character.dp : 'N/A'}</p>
