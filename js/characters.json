@@ -1,0 +1,3173 @@
+[
+    {
+        "id": 1,
+        "name": "Whis",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 10,
+        "transformations": [],
+        "image": "assets/pj/Whis.webp"
+    },
+    {
+        "id": 2,
+        "name": "Vegito (Super Saiyan Blue)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 10,
+        "transformations": [
+            14,
+            29
+        ],
+        "image": "assets/pj/Vegito ssj blue.webp"
+    },
+    {
+        "id": 3,
+        "name": "Gogeta (Super, Super Saiyan Blue)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 10,
+        "transformations": [],
+        "image": "assets/pj/Gogeta (Super) ssj blue.webp"
+    },
+    {
+        "id": 4,
+        "name": "Gogeta (GT, Super Saiyan 4)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 10,
+        "transformations": [],
+        "image": "assets/pj/Gogeta GT ssj 4.webp"
+    },
+    {
+        "id": 5,
+        "name": "Beerus",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 10,
+        "transformations": [],
+        "image": "assets/pj/Beerus.webp"
+    },
+    {
+        "id": 6,
+        "name": "Jiren (Full Power)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 9,
+        "transformations": [],
+        "image": "assets/pj/Jiren Full Power.webp"
+    },
+    {
+        "id": 7,
+        "name": "Goku (Super, Ultra Instinct)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 9,
+        "transformations": [],
+        "image": "assets/pj/Goku (Super) Ultra Instinct.webp"
+    },
+    {
+        "id": 8,
+        "name": "Fused Zamasu (half corrupted)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 9,
+        "transformations": [],
+        "image": "assets/pj/Fused Zamasu halfcorrupted.webp"
+    },
+    {
+        "id": 9,
+        "name": "Broly (Z. Legendary Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 9,
+        "transformations": [],
+        "image": "assets/pj/Broly Z Legendary ssj.webp"
+    },
+    {
+        "id": 10,
+        "name": "Broly (Super, Super Saiyan Full Power)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 9,
+        "transformations": [],
+        "image": "assets/pj/Broly (Super) ssj FullPower.webp"
+    },
+    {
+        "id": 11,
+        "name": "Vegeta (Super. Super Saiyan Blue)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 8,
+        "transformations": [],
+        "image": "assets/pj/Vegeta ssj blue (super).webp"
+    },
+    {
+        "id": 12,
+        "name": "Vegeta (GT, Super Saiyan 4)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 8,
+        "transformations": [],
+        "image": "assets/pj/Vegeta GT ssj 4.webp"
+    },
+    {
+        "id": 13,
+        "name": "Toppo (God of Destruction)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 8,
+        "transformations": [],
+        "image": "assets/pj/Toppo God of Destruction.webp"
+    },
+    {
+        "id": 2,
+        "name": "Super Vegito",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 8,
+        "transformations": [],
+        "image": "assets/pj/Super Vegito.webp"
+    },
+    {
+        "id": 15,
+        "name": "Super Gogeta (Z)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 8,
+        "transformations": [],
+        "image": "assets/pj/Super Gogeta Z.webp"
+    },
+    {
+        "id": 16,
+        "name": "Omega Shenron (GT)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 8,
+        "transformations": [],
+        "image": "assets/pj/Omega Shenron GT.webp"
+    },
+    {
+        "id": 17,
+        "name": "Kefla (Super Saiyan 2)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 8,
+        "transformations": [],
+        "image": "assets/pj/Kefla ssj 2.webp"
+    },
+    {
+        "id": 6,
+        "name": "Jiren",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 8,
+        "transformations": [],
+        "image": "assets/pj/Jiren Full Power.webp"
+    },
+    {
+        "id": 19,
+        "name": "Hit",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 8,
+        "transformations": [],
+        "image": "assets/pj/Hit.webp"
+    },
+    {
+        "id": 20,
+        "name": "Gotenks (Super Saiyan 3)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 8,
+        "transformations": [
+            45
+        ],
+        "image": "assets/pj/Gotenks ssj.webp"
+    },
+    {
+        "id": 21,
+        "name": "Golden Frieza",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 8,
+        "transformations": [],
+        "image": "assets/pj/Golden Frieza.webp"
+    },
+    {
+        "id": 22,
+        "name": "Goku Black (Super Saiyan Rose)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 8,
+        "transformations": [],
+        "image": "assets/pj/Goku Black ssj Rose.webp"
+    },
+    {
+        "id": 7,
+        "name": "Goku (Super, Ultra Instinct Sign)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 8,
+        "transformations": [],
+        "image": "assets/pj/Goku (Super) Ultra Instinct Sign.webp"
+    },
+    {
+        "id": 24,
+        "name": "Goku (Super, Super Saiyan Blue)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 8,
+        "transformations": [],
+        "image": "assets/pj/son Goku ssj blue (super).webp"
+    },
+    {
+        "id": 25,
+        "name": "Goku (GT, Super Saiyan 4)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 8,
+        "transformations": [],
+        "image": "assets/pj/Goku GT ssj 4.webp"
+    },
+    {
+        "id": 3,
+        "name": "Gogeta (Super, Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 8,
+        "transformations": [],
+        "image": "assets/pj/Gogeta (Super) ssj.webp"
+    },
+    {
+        "id": 8,
+        "name": "Fused Zamasu",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 8,
+        "transformations": [],
+        "image": "assets/pj/Fused Zamasu HalfCorrupted.webp"
+    },
+    {
+        "id": 28,
+        "name": "Anilaza",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 8,
+        "transformations": [],
+        "image": "assets/pj/Anilaza.webp"
+    },
+    {
+        "id": 2,
+        "name": "Vegito",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Vegito.webp"
+    },
+    {
+        "id": 11,
+        "name": "Vegeta (Super, Super Saiyan God)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Vegeta ssj god (Super).webp"
+    },
+    {
+        "id": 31,
+        "name": "Ultimate Gohan",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Ultimate Gohan.webp"
+    },
+    {
+        "id": 13,
+        "name": "Toppo",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Toppo God of Destruction.webp"
+    },
+    {
+        "id": 16,
+        "name": "Syn Shenron (GT)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Syn Shenron GT.webp"
+    },
+    {
+        "id": 34,
+        "name": "Super Janemba",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Super Janemba.webp"
+    },
+    {
+        "id": 35,
+        "name": "Super Buu (Gotenks absorbed)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Super Buu Gotenks absorbed.webp"
+    },
+    {
+        "id": 35,
+        "name": "Super Buu (Gohan absorbed)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Super Buu Gohan absorbed.webp"
+    },
+    {
+        "id": 37,
+        "name": "Super Baby 2 (GT)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Super Baby 2 GT.webp"
+    },
+    {
+        "id": 38,
+        "name": "Perfect Cell",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Perfect Cell.webp"
+    },
+    {
+        "id": 39,
+        "name": "Metal Cooler",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": true,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Metal Cooler.webp"
+    },
+    {
+        "id": 40,
+        "name": "Majin Vegeta",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Majin Vegeta.webp"
+    },
+    {
+        "id": 41,
+        "name": "Kid Buu",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Kid Buu.webp"
+    },
+    {
+        "id": 17,
+        "name": "Kefla (Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Kefla ssj.webp"
+    },
+    {
+        "id": 43,
+        "name": "Kale (Super Saiyan Berserk)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Kale ssj Berserk.webp"
+    },
+    {
+        "id": 37,
+        "name": "Great Ape Baby (GT)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Great Ape Baby GT.webp"
+    },
+    {
+        "id": 20,
+        "name": "Gotenks (Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [
+            null,
+            null
+        ],
+        "image": "assets/pj/Gotenks ssj 2.webp"
+    },
+    {
+        "id": 46,
+        "name": "Goku (Z \u2013 End, Super Saiyan 3)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Son Goku SSJ 3 (Z End).webp"
+    },
+    {
+        "id": 24,
+        "name": "Goku (Super, Super Saiyan God)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/son Goku ssj god (Super).webp"
+    },
+    {
+        "id": 25,
+        "name": "Goku (GT, Super Saiyan 3)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Goku GT ssj 3.webp"
+    },
+    {
+        "id": 49,
+        "name": "Gohan (Teen, Super Saiyan 2)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [
+            null
+        ],
+        "image": "assets/pj/Gohan Teen ssj 2.webp"
+    },
+    {
+        "id": 50,
+        "name": "Gohan (Adult, Super Saiyan 2)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [
+            null
+        ],
+        "image": "assets/pj/Gohan Adult ssj 2.webp"
+    },
+    {
+        "id": 3,
+        "name": "Gogeta (Super)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Gogeta (Super) SSJ Blue.webp"
+    },
+    {
+        "id": 52,
+        "name": "Fusion Android 13",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Fusion Android 13.webp"
+    },
+    {
+        "id": 53,
+        "name": "Full-Power Bojack",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Full-Power Bojack.webp"
+    },
+    {
+        "id": 54,
+        "name": "Frieza (Z, Full Power)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [
+            null
+        ],
+        "image": "assets/pj/Frieza Z Full Power.webp"
+    },
+    {
+        "id": 55,
+        "name": "Cooler (Final Form)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Cooler Final Form.webp"
+    },
+    {
+        "id": 56,
+        "name": "Caulifla (Super Saiyan 2)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Caulifla ssj.webp"
+    },
+    {
+        "id": 57,
+        "name": "Cabba (Super Saiyan 2)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Cabba ssj 2.webp"
+    },
+    {
+        "id": 9,
+        "name": "Broly (Z, Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Broly z ssj.webp"
+    },
+    {
+        "id": 10,
+        "name": "Broly (Super, Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 7,
+        "transformations": [],
+        "image": "assets/pj/Broly ssj (Super).webp"
+    },
+    {
+        "id": 60,
+        "name": "Vegeta (Z \u2013 End, Super Saiyan 2)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Vegeta SSJ 2 (Z End).webp"
+    },
+    {
+        "id": 60,
+        "name": "Vegeta (Z \u2013 End, Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Vegeta SSJ (Z End).webp"
+    },
+    {
+        "id": 62,
+        "name": "Vegeta (Z \u2013 Early, Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Vegeta SSJ (Z Early).webp"
+    },
+    {
+        "id": 11,
+        "name": "Vegeta (Super, Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Vegeta SSJ (Super).webp"
+    },
+    {
+        "id": 64,
+        "name": "Trunks (Sword, Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [
+            null,
+            null
+        ],
+        "image": "assets/pj/Trunks Sword SSJ.webp"
+    },
+    {
+        "id": 65,
+        "name": "Trunks (Melee, Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [
+            null,
+            null
+        ],
+        "image": "assets/pj/Trunks ssj Melee.webp"
+    },
+    {
+        "id": 62,
+        "name": "Super Vegeta",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Super Vegeta.webp"
+    },
+    {
+        "id": 65,
+        "name": "Super Trunks",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Super Trunks.webp"
+    },
+    {
+        "id": 35,
+        "name": "Super Buu",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Super Buu Gohan Absorbed.webp"
+    },
+    {
+        "id": 37,
+        "name": "Super Baby 1 (GT)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Super Baby 1 GT.webp"
+    },
+    {
+        "id": 70,
+        "name": "Mecha Frieza",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Mecha Frieza.webp"
+    },
+    {
+        "id": 71,
+        "name": "Majuub (GT)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Majuub GT.webp"
+    },
+    {
+        "id": 72,
+        "name": "Majin Buu (Evil)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [
+            41,
+            68
+        ],
+        "image": "assets/pj/Majin Buu Evil.webp"
+    },
+    {
+        "id": 73,
+        "name": "Majin Buu",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Majin Buu.webp"
+    },
+    {
+        "id": 74,
+        "name": "Lord Slug (Giant Form)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Lord Slug Giant Form.webp"
+    },
+    {
+        "id": 17,
+        "name": "Kefla",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Kefla SSJ 2.webp"
+    },
+    {
+        "id": 43,
+        "name": "Kale (Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Kale ssj.webp"
+    },
+    {
+        "id": 77,
+        "name": "Hirudegarn",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Hirudegarn.webp"
+    },
+    {
+        "id": 20,
+        "name": "Gotenks",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [
+            null,
+            null
+        ],
+        "image": "assets/pj/Gotenks.webp"
+    },
+    {
+        "id": 79,
+        "name": "Goku (Z \u2013 Mid, Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Son Goku SSJ (Z Mid).webp"
+    },
+    {
+        "id": 46,
+        "name": "Goku (Z \u2013 End, Super Saiyan 2)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/SON Goku SSJ 2 (Z End).webp"
+    },
+    {
+        "id": 46,
+        "name": "Goku (Z \u2013 End, Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/son Goku SSJ (Z End).webp"
+    },
+    {
+        "id": 24,
+        "name": "Goku (Super, Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Goku ssj (Super).webp"
+    },
+    {
+        "id": 25,
+        "name": "Goku (GT, Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Goku GT ssj.webp"
+    },
+    {
+        "id": 49,
+        "name": "Gohan (Teen, Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [
+            null
+        ],
+        "image": "assets/pj/Gohan Teen ssj.webp"
+    },
+    {
+        "id": 85,
+        "name": "Gohan (Future, Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [
+            null
+        ],
+        "image": "assets/pj/Gohan Future ssj.webp"
+    },
+    {
+        "id": 50,
+        "name": "Gohan (Adult, Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [
+            null
+        ],
+        "image": "assets/pj/Gohan Adult ssj.webp"
+    },
+    {
+        "id": 87,
+        "name": "Future Trunks (Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Future Trunks ssj.webp"
+    },
+    {
+        "id": 88,
+        "name": "Frost",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Frost.webp"
+    },
+    {
+        "id": 54,
+        "name": "Frieza (Z, 4th Form)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [
+            null
+        ],
+        "image": "assets/pj/Frieza Z 4th Form.webp"
+    },
+    {
+        "id": 21,
+        "name": "Frieza (Super)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [
+            null
+        ],
+        "image": "assets/pj/Frieza (Super).webp"
+    },
+    {
+        "id": 91,
+        "name": "Dyspo",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Dyspo.webp"
+    },
+    {
+        "id": 92,
+        "name": "Dabura",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Dabura.webp"
+    },
+    {
+        "id": 55,
+        "name": "Cooler",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Cooler.webp"
+    },
+    {
+        "id": 94,
+        "name": "Cell (Perfect Form)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [
+            38
+        ],
+        "image": "assets/pj/Cell Perfect.webp"
+    },
+    {
+        "id": 57,
+        "name": "Cabba (Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Cabba ssj.webp"
+    },
+    {
+        "id": 96,
+        "name": "Android 17 (Super)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 6,
+        "transformations": [],
+        "image": "assets/pj/Android 17 (Super).webp"
+    },
+    {
+        "id": 97,
+        "name": "Zamasu",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [
+            null
+        ],
+        "image": "assets/pj/Zamasu.webp"
+    },
+    {
+        "id": 60,
+        "name": "Vegeta (Z \u2013 End)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Vegeta (Z End).webp"
+    },
+    {
+        "id": 62,
+        "name": "Vegeta (Z \u2013 Early)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Vegeta (Z Early).webp"
+    },
+    {
+        "id": 11,
+        "name": "Vegeta (Super)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Vegeta (Super).webp"
+    },
+    {
+        "id": 65,
+        "name": "Trunks (Melee)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [
+            null,
+            null
+        ],
+        "image": "assets/pj/Trunks Melee.webp"
+    },
+    {
+        "id": 102,
+        "name": "Trunks (Kid, Super Saiyan)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [
+            null,
+            null
+        ],
+        "image": "assets/pj/Trunks Kid ssj.webp"
+    },
+    {
+        "id": 103,
+        "name": "Roasie",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Roasie.webp"
+    },
+    {
+        "id": 104,
+        "name": "Ribrianne",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Ribrianne.webp"
+    },
+    {
+        "id": 105,
+        "name": "Piccolo (fused with Kami)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Piccolo fused with Kami.webp"
+    },
+    {
+        "id": 43,
+        "name": "Kale",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Kale SSJ Berserk.webp"
+    },
+    {
+        "id": 107,
+        "name": "Kakunsa",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Kakunsa.webp"
+    },
+    {
+        "id": 34,
+        "name": "Janemba",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Janemba.webp"
+    },
+    {
+        "id": 109,
+        "name": "Great Ape Vegeta",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Great Ape Vegeta.webp"
+    },
+    {
+        "id": 110,
+        "name": "Goten SSJ",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Goten SSJ.webp"
+    },
+    {
+        "id": 22,
+        "name": "Goku Black",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Goku Black SSJ Rose.webp"
+    },
+    {
+        "id": 79,
+        "name": "Goku (Z \u2013 Mid)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/SON Goku (Z Mid).webp"
+    },
+    {
+        "id": 46,
+        "name": "Goku (Z \u2013 End)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/SON Goku (Z End).webp"
+    },
+    {
+        "id": 24,
+        "name": "Goku (Super)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/son Goku (Super).webp"
+    },
+    {
+        "id": 25,
+        "name": "Goku (GT)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Goku GT.webp"
+    },
+    {
+        "id": 85,
+        "name": "Gohan (Future)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [
+            null
+        ],
+        "image": "assets/pj/Gohan Future.webp"
+    },
+    {
+        "id": 87,
+        "name": "Future Trunks",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Future Trunks SSJ.webp"
+    },
+    {
+        "id": 54,
+        "name": "Frieza (Z, 3rd form)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [
+            null
+        ],
+        "image": "assets/pj/Frieza Z 3rd form.webp"
+    },
+    {
+        "id": 54,
+        "name": "Frieza (Z, 2nd form)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [
+            null
+        ],
+        "image": "assets/pj/Frieza Z 2nd form.webp"
+    },
+    {
+        "id": 54,
+        "name": "Frieza (Z)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [
+            null
+        ],
+        "image": "assets/pj/Frieza Z 1st form.webp"
+    },
+    {
+        "id": 38,
+        "name": "Cell (2nd form)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [
+            null,
+            null
+        ],
+        "image": "assets/pj/Cell 2nd form.webp"
+    },
+    {
+        "id": 38,
+        "name": "Cell",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [
+            null,
+            null
+        ],
+        "image": "assets/pj/Cell 1st Form.webp"
+    },
+    {
+        "id": 56,
+        "name": "Caulifla",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Caulifla.webp"
+    },
+    {
+        "id": 57,
+        "name": "Cabba",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Cabba.webp"
+    },
+    {
+        "id": 9,
+        "name": "Broly (Z)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Broly Z.webp"
+    },
+    {
+        "id": 10,
+        "name": "Broly (Super)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Broly (Super).webp"
+    },
+    {
+        "id": 53,
+        "name": "Bojack",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Bojack.webp"
+    },
+    {
+        "id": 128,
+        "name": "Bergamo",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Bergamo.webp"
+    },
+    {
+        "id": 37,
+        "name": "Baby Vegeta (GT)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Baby Vegeta.webp"
+    },
+    {
+        "id": 130,
+        "name": "Android 18",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Android 18.webp"
+    },
+    {
+        "id": 131,
+        "name": "Android 17 (Z)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Android 17 z.webp"
+    },
+    {
+        "id": 132,
+        "name": "Android 16",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Android 16.webp"
+    },
+    {
+        "id": 52,
+        "name": "Android 13",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 5,
+        "transformations": [],
+        "image": "assets/pj/Android 13.webp"
+    },
+    {
+        "id": 109,
+        "name": "Vegeta (Z \u2013 Scouter)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [],
+        "image": "assets/pj/Vegeta (Z Scouter).webp"
+    },
+    {
+        "id": 71,
+        "name": "Uub (GT)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [],
+        "image": "assets/pj/Uub GT.webp"
+    },
+    {
+        "id": 136,
+        "name": "Turles",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [],
+        "image": "assets/pj/Turles.webp"
+    },
+    {
+        "id": 64,
+        "name": "Trunks (Sword)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [
+            null,
+            null
+        ],
+        "image": "assets/pj/Trunks Sword.webp"
+    },
+    {
+        "id": 102,
+        "name": "Trunks (Kid)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [
+            null,
+            null
+        ],
+        "image": "assets/pj/Trunks Kid.webp"
+    },
+    {
+        "id": 139,
+        "name": "Tien",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [],
+        "image": "assets/pj/Tien Shin Han.webp"
+    },
+    {
+        "id": 140,
+        "name": "Tapion",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [],
+        "image": "assets/pj/Tapion.webp"
+    },
+    {
+        "id": 141,
+        "name": "Super Garlic Jr.",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [],
+        "image": "assets/pj/Super Garlic Jr.webp"
+    },
+    {
+        "id": 105,
+        "name": "Piccolo",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [],
+        "image": "assets/pj/Piccolo Fused with Kami.webp"
+    },
+    {
+        "id": 143,
+        "name": "Nail",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [],
+        "image": "assets/pj/Nail.webp"
+    },
+    {
+        "id": 74,
+        "name": "Lord Slug",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [],
+        "image": "assets/pj/Lord Slug Giant Form.webp"
+    },
+    {
+        "id": 145,
+        "name": "King Cold",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [],
+        "image": "assets/pj/King Cold.webp"
+    },
+    {
+        "id": 50,
+        "name": "Great Saiyaman",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [],
+        "image": "assets/pj/Great Saiyaman.webp"
+    },
+    {
+        "id": 110,
+        "name": "Goten",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [],
+        "image": "assets/pj/Goten.webp"
+    },
+    {
+        "id": 148,
+        "name": "Goku (Z \u2013 Early)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [],
+        "image": "assets/pj/Son Goku (Z Early).webp"
+    },
+    {
+        "id": 149,
+        "name": "Goku (Mini)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [],
+        "image": "assets/pj/Goku Mini.webp"
+    },
+    {
+        "id": 49,
+        "name": "Gohan (Teen)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [
+            null
+        ],
+        "image": "assets/pj/Gohan Teen.webp"
+    },
+    {
+        "id": 50,
+        "name": "Gohan (Adult)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [
+            null
+        ],
+        "image": "assets/pj/Gohan Adult.webp"
+    },
+    {
+        "id": 152,
+        "name": "Dr. Wheelo",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [],
+        "image": "assets/pj/Dr. Wheelo.webp"
+    },
+    {
+        "id": 153,
+        "name": "Dr. Gero",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [],
+        "image": "assets/pj/Dr. Gero.webp"
+    },
+    {
+        "id": 154,
+        "name": "Captain Ginyu",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [],
+        "image": "assets/pj/Ginyu.webp"
+    },
+    {
+        "id": 155,
+        "name": "Bardock",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [],
+        "image": "assets/pj/Bardock.webp"
+    },
+    {
+        "id": 156,
+        "name": "Android 19",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 4,
+        "transformations": [],
+        "image": "assets/pj/Android 19.webp"
+    },
+    {
+        "id": 157,
+        "name": "Zarbon",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 3,
+        "transformations": [],
+        "image": "assets/pj/Zarbon.webp"
+    },
+    {
+        "id": 158,
+        "name": "Yamcha",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 3,
+        "transformations": [],
+        "image": "assets/pj/Yamcha.webp"
+    },
+    {
+        "id": 157,
+        "name": "Super Zarbon",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 3,
+        "transformations": [],
+        "image": "assets/pj/Super Zarbon.webp"
+    },
+    {
+        "id": 160,
+        "name": "Recoome",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 3,
+        "transformations": [],
+        "image": "assets/pj/Recoome.webp"
+    },
+    {
+        "id": 161,
+        "name": "Raditz",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 3,
+        "transformations": [],
+        "image": "assets/pj/Raditz.webp"
+    },
+    {
+        "id": 162,
+        "name": "Pan (GT)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 3,
+        "transformations": [],
+        "image": "assets/pj/Pan GT.webp"
+    },
+    {
+        "id": 163,
+        "name": "Nappa",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 3,
+        "transformations": [],
+        "image": "assets/pj/Nappa.webp"
+    },
+    {
+        "id": 164,
+        "name": "Krillin",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 3,
+        "transformations": [],
+        "image": "assets/pj/Krillin.webp"
+    },
+    {
+        "id": 165,
+        "name": "Jeice",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 3,
+        "transformations": [],
+        "image": "assets/pj/Jeice.webp"
+    },
+    {
+        "id": 166,
+        "name": "Goku (Teen)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 3,
+        "transformations": [],
+        "image": "assets/pj/Goku Teen.webp"
+    },
+    {
+        "id": 167,
+        "name": "Gohan (Kid)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 3,
+        "transformations": [
+            null
+        ],
+        "image": "assets/pj/Gohan Kid.webp"
+    },
+    {
+        "id": 168,
+        "name": "Dodoria",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 3,
+        "transformations": [],
+        "image": "assets/pj/Dodoria.webp"
+    },
+    {
+        "id": 169,
+        "name": "Cui",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 3,
+        "transformations": [],
+        "image": "assets/pj/Cui.webp"
+    },
+    {
+        "id": 170,
+        "name": "Cell Jr.",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": true,
+        "dp": 3,
+        "transformations": [
+            null,
+            null
+        ],
+        "image": "assets/pj/Cell Jr..webp"
+    },
+    {
+        "id": 171,
+        "name": "Burter",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 3,
+        "transformations": [],
+        "image": "assets/pj/Burter.webp"
+    },
+    {
+        "id": 172,
+        "name": "Babidi",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 3,
+        "transformations": [],
+        "image": "assets/pj/Babidi.webp"
+    },
+    {
+        "id": 173,
+        "name": "Yajirobe",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 2,
+        "transformations": [],
+        "image": "assets/pj/Yajirobe.webp"
+    },
+    {
+        "id": 174,
+        "name": "Videl",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 2,
+        "transformations": [],
+        "image": "assets/pj/Videl.webp"
+    },
+    {
+        "id": 175,
+        "name": "Spopovich",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 2,
+        "transformations": [],
+        "image": "assets/pj/Spopovich.webp"
+    },
+    {
+        "id": 176,
+        "name": "Saibaman",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": true,
+        "dp": 2,
+        "transformations": [],
+        "image": "assets/pj/Saibaman.webp"
+    },
+    {
+        "id": 177,
+        "name": "Master Roshi (Max Power)",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 2,
+        "transformations": [],
+        "image": "assets/pj/Master Roshi Max Power.webp"
+    },
+    {
+        "id": 177,
+        "name": "Master Roshi",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 2,
+        "transformations": [],
+        "image": "assets/pj/Master Roshi.webp"
+    },
+    {
+        "id": 179,
+        "name": "Guldo",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 2,
+        "transformations": [],
+        "image": "assets/pj/Guldo.webp"
+    },
+    {
+        "id": 180,
+        "name": "Frieza Force Soldier",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 2,
+        "transformations": [
+            null
+        ],
+        "image": "assets/pj/Frieza Force Soldier.webp"
+    },
+    {
+        "id": 181,
+        "name": "Chiaotzu",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 2,
+        "transformations": [],
+        "image": "assets/pj/Chiaotzu.webp"
+    },
+    {
+        "id": 182,
+        "name": "Mr. Satan",
+        "details": {
+            "strength": null,
+            "actions": [],
+            "health": null,
+            "ki": null,
+            "defense": null,
+            "attacks": [],
+            "speed": null
+        },
+        "canDuplicate": false,
+        "dp": 1,
+        "transformations": [],
+        "image": "assets/pj/Mr.Satan.webp"
+    }
+]

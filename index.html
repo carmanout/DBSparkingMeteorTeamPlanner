@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Link to Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Link to your CSS stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="description" content="Plan your Dragon Ball Sparking Meteor teams easily and quickly">
+    <meta name="keywords" content="Dragon Ball, Sparking Meteor, DBZ, team planning">
+    <meta name="author" content="Carlos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Planner - DB Sparking Meteor</title>
+
+
+    <meta property="og:title" content="Team Planner - DB Sparking Meteor">
+    <meta property="og:description" content="Create and organize your Dragon Ball Sparking Meteor teams easily.">
+    <meta property="og:image" content="https://yourdomain.com/assets/pj/Son Goku SSJ 3 (Z End).webp">
+    <meta property="og:url" content="https://yourdomain.com/">
+
+
+</head>
+
+<body>
+
+    <!-- Start Menu -->
+    <div id="start-menu" class="container my-4">
+        <h1 class="mb-4 text-center">Dragon Ball Sparking Zero - Team Planner</h1>
+        <p>Hey there, Saiyan warrior! 🚀 If you love what you're seeing here and want to keep those Kamehamehas coming,
+            why not throw a few Zeni our way? 💸 Every little bit helps, whether it's to fuel our server or maybe just
+            bribe Shenron for better uptime. And hey, if you're broke like Yamcha after a tournament, no worries! Just
+            hit that share button and show it off to your friends, your frenemies, or even that guy who still thinks
+            Krillin is the strongest human. Together, we can keep the spirit of Sparking Meteor alive! ✨</p>
+
+        <h5 style="display: flex; align-items: center; justify-content: center;">Donate, share, and let’s save the
+            world...or at least the website. 🤘</h5>
+        <br>
+        <p style="display: flex; align-items: center; justify-content: center;">Click down below to create your perfect
+            team!</p><br>
+        <div class="text-center">
+            <button id="btn-create-team" class="btn btn-primary mb-3">Create New Team</button>
+        </div>
+        <h3>Saved Teams</h3>
+        <div id="saved-teams" class="mt-3">
+            <!-- Saved teams will be displayed here -->
+        </div>
+    </div>
+
+    <!-- Team creation and management section -->
+    <div id="team-management" class="container my-4 d-none">
+        <div id="my-team-photo">
+
+            <h2>Team: <span id="team-name"></span></h2>
+            <p id="dp-total">Total DP: <span id="dp-current"></span>/15</p>
+
+
+
+
+
+            <!-- Title for team section -->
+            <h3>Your Team</h3>
+            <!-- Team characters displayed horizontally -->
+            <div class="team-container d-flex align-items-center mt-4">
+                <div id="my-team">
+                    <!-- Team character cards will be displayed here -->
+                </div>
+            </div>
+        </div>
+        <button id="phototeam" onclick="takeScreenshot()">Download image team</button>
+        <br>
+        <!-- Search bar and DP filter -->
+        <div class="my-4 topform">
+            <input type="text" id="search" class="form-control mb-2" placeholder="Search characters..."
+                style="max-width: 50%;">
+            <div class="dp-filter-box">
+                <!-- Button to activate/deactivate DP filter -->
+                <div class="form-check mt-2">
+                    <input type="checkbox" class="form-check-input" id="dp-filter-toggle" checked>
+                    <label class="form-check-label" for="dp-filter-toggle">Enable DP Filter</label>
+                </div>
+                <div>
+                    <label for="dp-range">Filter by DP:</label>
+                    <input type="range" id="dp-range" class="custom-range" min="1" max="10" value="10">
+                    <span id="dp-range-value">10</span>
+                </div>
+            </div>
+        </div>
+        <!-- Titles for sections -->
+        <h3>Available Characters</h3>
+        <!-- Character selector with arrows -->
+        <div class="picker-container d-flex align-items-center">
+            <button id="arrow-left" class="btn-arrow">&lt;</button>
+            <div id="character-picker">
+                <!-- Character cards will be inserted here -->
+            </div>
+            <button id="arrow-right" class="btn-arrow">&gt;</button>
+        </div>
+        <button id="btn-back" class="btn btn-secondary mb-3">Back to Menu</button><br><br><br>
+    </div>
+
+    <!-- Modals (remain unchanged) -->
+
+    <!-- Modal to display character details -->
+    <div class="modal fade" id="modal-character" tabindex="-1" aria-labelledby="modal-character-name"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content modal-character-content">
+                <div class="modal-header">
+                    <!-- Modal title -->
+                    <h5 class="modal-title" id="modal-character-name"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="modal-character-body">
+                    <!-- Modal content (character details) -->
+                </div>
+                <div class="modal-footer">
+                    <!-- Button to close the modal -->
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Generic modal to display messages -->
+    <div class="modal fade" id="modal-message" tabindex="-1" aria-labelledby="modal-message-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body" id="modal-message-body">
+                    <!-- Modal content (user message) -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal to request the new team's name -->
+    <div class="modal fade" id="modal-team-name" tabindex="-1" aria-labelledby="modal-team-name-title"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Create New Team</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form id="form-team-name">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="input-team-name">Team Name:</label>
+                            <input type="text" class="form-control" id="input-team-name" required>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Create Team</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal to confirm team deletion -->
+    <div class="modal fade" id="modal-confirm" tabindex="-1" aria-labelledby="modal-confirm-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 id="modal-confirm-title" class="modal-title">Confirm</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="modal-confirm-body">
+                    <!-- Confirmation message -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-danger" id="btn-confirm-action">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Links to jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <!-- Popper.js is required for Bootstrap's JavaScript components -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Links to your JavaScript files -->
+    <script src="js/characters.js"></script>
+    <script src="js/teams.js"></script>
+    <div id="cookiePopup">
+        This website uses cookies to ensure you get the best experience on our website.
+        <a href="https://www.cookiesandyou.com" target="_blank" style="color: #ff9800;">Learn more</a>.
+        <button onclick="acceptCookies()">Got it!</button>
+    </div>
+
+    <script>
+        function acceptCookies() {
+            document.getElementById('cookiePopup').style.display = 'none';
+            localStorage.setItem("cookies", true)
+            // You can add a line here to set a cookie indicating acceptance if needed
+        }
+
+        if (localStorage.getItem("cookies") == "true") {
+            acceptCookies()
+        }
+    </script>
+
+    <a id="donatebtn" target="_blank" href="https://www.paypal.com/donate/?hosted_button_id=GM67KUJ9LCLWL">¡Donate to
+        support us!</a>
+    <p id="maker">Developed by LuthierStore</p>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+    <script>
+        function takeScreenshot() {
+            document.querySelectorAll('.btn-remove-team').forEach(element => {
+                element.style.display = 'none';
+            });
+            const div = document.getElementById("my-team-photo");
+            html2canvas(div).then((canvas) => {
+                // Descargar la imagen
+                const link = document.createElement('a');
+                link.href = canvas.toDataURL();
+                link.download = 'my_team_screenshot.png';
+                link.click();
+            });
+            document.querySelectorAll('.btn-remove-team').forEach(element => {
+                element.style.display = 'inline-block';
+            });
+        }
+    </script>
+</body>
+
+</html>
+
+<!-- 
+
+COSAS QUE FALTAN A NIVEL DE FUNCIONALIDAD
+
+-no poder elegir las transformaciones de un pj cuando se ha seleccionado el personaje. 
+-foto a los personajes del equipo
+
+-->

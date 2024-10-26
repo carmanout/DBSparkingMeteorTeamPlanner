@@ -1,0 +1,444 @@
+/* STYLE MDFK */
+#team-management,
+#start-menu {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.btn-remove-team{
+    
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    margin: 0px;
+    border-radius: 25px;
+
+}
+.modal-dialog{
+    display: flex;
+    justify-content: center;
+}
+.modal-content{
+    max-width: 350px;
+}
+
+#maker {
+    position: fixed;
+    background-color: black;
+    color: yellow;
+    padding: 10px;
+    border-top-left-radius: 25px;
+    bottom: 0px;
+    right: 0px;
+    margin: 0px;
+    z-index: 2;
+}
+
+#phototeam {
+    background-color: black;
+    color: yellow;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 0px;
+    transition: all 0.2s;
+}
+
+#phototeam:hover {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 0px;
+    transition: all 0.2s
+}
+
+/* CSS for a highly attention-grabbing button with ID #donatebtn */
+
+#donatebtn {
+    z-index: 3;
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background: linear-gradient(45deg, #ff0000, #ff9900);
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(255, 105, 0, 0.8);
+    transition: all 0.3s ease;
+    animation: pulse 1.5s infinite, wiggle 1s infinite;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+#donatebtn:hover {
+    background: linear-gradient(45deg, #ff5500, #ffcc00);
+    box-shadow: 0 0 40px rgba(255, 140, 0, 1);
+    transform: scale(1.15) rotate(3deg);
+}
+
+#donatebtn:active {
+    background: linear-gradient(45deg, #cc0000, #ff8800);
+    box-shadow: 0 0 20px rgba(204, 85, 0, 0.9);
+    transform: scale(1.1);
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        box-shadow: 0 0 30px rgba(255, 105, 0, 0.8);
+    }
+
+    50% {
+        box-shadow: 0 0 50px rgba(255, 105, 0, 1);
+    }
+}
+
+@keyframes wiggle {
+
+    0%,
+    100% {
+        transform: rotate(-2deg);
+    }
+
+    50% {
+        transform: rotate(2deg);
+    }
+}
+
+/* Mobile styles for #donatebtn */
+@media (max-width: 768px) {
+    #donatebtn {
+        padding: 10px 20px;
+        font-size: 16px;
+        bottom: 0px;
+        left: 0px;
+        box-shadow: 0 0 20px rgba(255, 105, 0, 0.8);
+        animation: pulse 2s infinite;
+
+    }
+}
+
+
+/* General styles */
+body {
+    background-color: #f8f9fa;
+    font-size: 16px;
+    background-image: url("../assets/background.jpg");
+    /* background-size: cover; */
+    background-clip: content-box;
+    background-size: auto;
+}
+
+#my-team-photo{
+    padding: 15px;
+}
+
+/* Picker container */
+.picker-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#character-picker {
+    flex: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    scroll-behavior: smooth;
+}
+
+/* Styles for character and team cards */
+.card{
+    min-height: 250px;
+    min-width: 140px;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-team,
+.card-character {
+    flex: 0 0 auto;
+    width: 150px;
+    /* Same width on all devices */
+    margin-right: 10px;
+    position: relative;
+}
+
+.card-team img,
+.card-character img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-team .card-title,
+.card-character .card-title {
+    font-size: 1em;
+    word-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+}
+
+/* Styles for non-selectable characters */
+.card-character.not-selectable,
+.card-team.not-selectable {
+    background-color: #d3d3d3;
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+/* Indicator for selected character */
+.card-character.selected::after,
+.card-team.selected::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+/* Styles for the arrows */
+.btn-arrow {
+    background-color: transparent;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+    padding: 0 10px;
+    user-select: none;
+}
+
+.btn-arrow:focus {
+    outline: none;
+}
+
+.btn-arrow:hover {
+    color: #007bff;
+}
+
+/* Team container */
+.team-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#my-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* overflow-x: auto;
+    overflow-y: hidden; */
+    /* white-space: nowrap; */
+    /* scroll-behavior: smooth; */
+    width: 100%;
+}
+
+/* Adjustments for mobile devices */
+@media (max-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+
+    .btn-arrow {
+        font-size: 1.5em;
+        padding: 0 5px;
+    }
+
+    .card-character,
+    .card-team {
+        width: 120px;
+    }
+}
+
+/* Style for the total DP indicator */
+#dp-total {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Styles for different DP total states */
+.dp-normal {
+    color: black;
+}
+
+.dp-warning {
+    color: orange;
+}
+
+.dp-limit {
+    color: red;
+}
+
+/* Styles for buttons on team character cards */
+.card .btn-sm {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/* Styles for the character modal with background image */
+.modal-character-content {
+    background-size: cover;
+    background-position: center;
+    color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+.modal-character-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.modal-character-content .modal-header,
+.modal-character-content .modal-body,
+.modal-character-content .modal-footer {
+    position: relative;
+    z-index: 1;
+}
+
+.modal-character-content .modal-header .close {
+    color: black;
+    opacity: 1;
+}
+
+/* Adjust modal for mobile devices */
+.modal-dialog {
+    max-width: 90%;
+    margin: 1.75rem auto;
+}
+
+@media (max-width: 576px) {
+    .modal-dialog {
+        max-width: 100%;
+        margin: 0.5rem;
+    }
+
+    .modal-content {
+        border-radius: 0;
+    }
+}
+
+/* Buttons */
+.btn {
+    font-size: 1em;
+}
+
+@media (max-width: 576px) {
+    .btn {
+        font-size: 0.9em;
+        padding: 0.5em 1em;
+    }
+}
+
+.dp-filter-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.topform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topform>* {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.card-team-selected {
+    flex: 0 0 auto;
+    width: 18%;
+    /* Same width on all devices */
+    min-width: 140px;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    position: relative;
+}
+
+.card-team-selected img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-team-selected .card-title {
+    font-size: 1em;
+    word-wrap: break-word;
+    white-space: normal;
+    text-align: center;
+}
+
+/* Styles for non-selectable characters */
+.card-team-selected.not-selectable {
+    background-color: #d3d3d3;
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+/* Indicator for selected character */
+.card-team-selected.selected::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+#cookiePopup {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 90%;
+    z-index: 1000;
+}
+
+#cookiePopup button {
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* eliminar cuando haya info */
+.btn-info-team,
+.btn-info-character {
+    display: none;
+}
