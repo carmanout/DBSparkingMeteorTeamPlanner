@@ -130,8 +130,10 @@ body {
     font-size: 16px;
     background-image: url("../assets/background.jpg");
     /* background-size: cover; */
-    background-clip: content-box;
-    background-size: auto;
+    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita repeticiones */
+    background-attachment: fixed; /* Fija el fondo para que no se mueva al hacer scroll */
 }
 
 #my-team-photo{
