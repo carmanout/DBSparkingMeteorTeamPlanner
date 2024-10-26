@@ -279,7 +279,9 @@ function acceptCookies() {
     localStorage.setItem("cookies", true)
     // You can add a line here to set a cookie indicating acceptance if needed
 }
-
-if (localStorage.getItem("cookies") == "true") {
-    acceptCookies()
-}
+window.onload = function() {
+    // Código a ejecutar después de cargar la página
+    if (localStorage.getItem("cookies") == "true") {
+        acceptCookies()
+    }
+};
