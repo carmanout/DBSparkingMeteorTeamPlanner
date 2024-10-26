@@ -13,13 +13,13 @@
     <meta name="description" content="Plan your Dragon Ball Sparking Meteor teams easily and quickly">
     <meta name="keywords" content="Dragon Ball, Sparking Meteor, DBZ, team planning">
     <meta name="author" content="Carlos">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Planner - DB Sparking Meteor</title>
 
 
     <meta property="og:title" content="Team Planner - DB Sparking Meteor">
     <meta property="og:description" content="Create and organize your Dragon Ball Sparking Meteor teams easily.">
-    <meta property="og:image" content="https://carmanout.github.io/DBSparkingMeteorTeamPlanner/assets/pj/Son Goku SSJ 3 (Z End).webp">
+    <meta property="og:image"
+        content="https://carmanout.github.io/DBSparkingMeteorTeamPlanner/assets/pj/Son Goku SSJ 3 (Z End).webp">
     <meta property="og:url" content="https://carmanout.github.io/DBSparkingMeteorTeamPlanner/">
 
 
@@ -201,42 +201,12 @@
         <button onclick="acceptCookies()">Got it!</button>
     </div>
 
-    <script>
-        function acceptCookies() {
-            document.getElementById('cookiePopup').style.display = 'none';
-            localStorage.setItem("cookies", true)
-            // You can add a line here to set a cookie indicating acceptance if needed
-        }
-
-        if (localStorage.getItem("cookies") == "true") {
-            acceptCookies()
-        }
-    </script>
-
     <a id="donatebtn" target="_blank" href="https://www.paypal.com/donate/?hosted_button_id=GM67KUJ9LCLWL">¡Donate to
         support us!</a>
     <p id="maker">Developed by LuthierStore</p>
 
 
     <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
-    <script>
-        function takeScreenshot() {
-            document.querySelectorAll('.btn-remove-team').forEach(element => {
-                element.style.display = 'none';
-            });
-            const div = document.getElementById("my-team-photo");
-            html2canvas(div).then((canvas) => {
-                // Descargar la imagen
-                const link = document.createElement('a');
-                link.href = canvas.toDataURL();
-                link.download = 'my_team_screenshot.png';
-                link.click();
-            });
-            document.querySelectorAll('.btn-remove-team').forEach(element => {
-                element.style.display = 'inline-block';
-            });
-        }
-    </script>
 </body>
 
 </html>

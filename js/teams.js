@@ -255,3 +255,31 @@ document.getElementById('btn-back').addEventListener('click', backToMenu);
 
 // Initial load of teams when the application starts
 document.addEventListener('DOMContentLoaded', loadTeams);
+
+
+function takeScreenshot() {
+    document.querySelectorAll('.btn-remove-team').forEach(element => {
+        element.style.display = 'none';
+    });
+    const div = document.getElementById("my-team-photo");
+    html2canvas(div).then((canvas) => {
+        // Descargar la imagen
+        const link = document.createElement('a');
+        link.href = canvas.toDataURL();
+        link.download = 'my_team_screenshot.png';
+        link.click();
+    });
+    document.querySelectorAll('.btn-remove-team').forEach(element => {
+        element.style.display = 'inline-block';
+    });
+}
+
+function acceptCookies() {
+    document.getElementById('cookiePopup').style.display = 'none';
+    localStorage.setItem("cookies", true)
+    // You can add a line here to set a cookie indicating acceptance if needed
+}
+
+if (localStorage.getItem("cookies") == "true") {
+    acceptCookies()
+}
